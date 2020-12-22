@@ -18,7 +18,7 @@ function App() {
       <header>
         <h1>Lucky Todo App</h1>
       </header>
-      <Form/>
+      <Form inputText = {inputText} todos={todos} setInputText={setInputText} setTodos={setTodos} setStatus={setStatus}/>
       <TodoList/>
     </div>
   );
